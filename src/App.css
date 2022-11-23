@@ -3,6 +3,63 @@
   margin: 0px;
 }
 .App {
-  background-color: #E56B6F;
   color: #355070;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: #E56B6F;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.title {
+  font-family: 'Alegreya', serif;
+  padding: 30px;
+  font-size: 50px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #355070;
+  color: #B56576;
+}
+
+button {
+  background-color: #6D597A;
+  color: #EAAC8B;
+  border-style: solid;
+  border-color: #355070;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.caption {
+  font-size: 10px;
+}
+
+.toggle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.footer {
+  background-color: #355070;
+  width: 100%;
+  height: 10%;
+  color: #EAAC8B;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 10px;
 }

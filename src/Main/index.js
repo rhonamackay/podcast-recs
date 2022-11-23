@@ -1,14 +1,16 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import Display from '../Display/index.js';
 import Button from '../Button/index.js';
 import { data } from '../episodeData.js';
-import RecList from '../RecList/index.js'
+import RecList from '../RecList/index.js';
+import Toggle from '../Toggle/index.js';
 
 function Main() {
     const [newEp, setNewEp] = useState('')
     const [podcastData, setPodcastData] = useState([...data])
     const [recs, setRecs] = useState([])
     const [viewRecs, setViewRecs] = useState(false)
+    const [viewDisplay, setViewDisplay] = useState(false)
 
     function handleClick() {
       let randNum = Math.floor(Math.random() * podcastData.length)
@@ -33,11 +35,15 @@ function Main() {
       setViewRecs(!viewRecs)
     }
 
+    function showDisplay() {
+      setViewDisplay(true)
+    }
+
     return (
       <div className="main">
-        <Display ep={newEp}/>
-        <Button onClick={handleClick} text='What was it about?'/>
-        <Button onClick={toggleRecs} text='Show me my rec list'/>
+        {viewDisplay ? <Display ep={newEp}/> : null}
+        <Button onClick={handleClick} display={showDisplay} text='Oh yeah, what was it about?'/>
+        <Toggle onClick={toggleRecs} value={viewRecs}/>
         <RecList items={recs} visible={viewRecs}/>
       </div>
     );

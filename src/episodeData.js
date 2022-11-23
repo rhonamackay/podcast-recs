@@ -16,7 +16,7 @@ export const data = [
         podName: "You're Wrong about",
         epName: "Flight 571: Survival in the Andes with Blair Braverman",
         appleURL: 'https://podcasts.apple.com/gb/podcast/flight-571-survival-in-the-andes-with-blair-braverman/id1380008439?i=1000584554361',
-        spotURL: 'https://open.spotify.com/show/1RefFgQB4Lrl7qczcTWA3o',
+        spotURL: 'https://open.spotify.com/episode/2Tqgu60WVXQWYMqiwWy5F7?si=yLu5osjTRKmEr1GuFcimqA',
         imgURL: 'https://i.scdn.co/image/ab6765630000ba8a557189992ebf2260823e4dff',
         synopsis: "It's the story of that rugby team that were stranded in the Andes after a plane crash, but it's really a story about the best humanity and survival in extreme environments."
     },

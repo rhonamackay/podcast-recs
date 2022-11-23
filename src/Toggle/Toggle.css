@@ -1,0 +1,40 @@
+.toggle-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    background: grey;
+    border-radius: 40px;
+    position: relative;
+    transition: background-color .2s;
+  }
+  
+  .toggle-label .toggle-checkbox-button {
+    content: '';
+    position: absolute;
+    top: 0.8px;
+    left: 0.8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    transition: 0.2s;
+    background: #fff;
+    box-shadow: 0 0 0.4px 0 rgba(10, 10, 10, 0.29);
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .toggle-checkbox-button {
+    left: calc(100% - 0.8px);
+    transform: translateX(-100%);
+  }
+  
+  .toggle-label:active .toggle-checkbox-button {
+    width: 24px;
+  }
