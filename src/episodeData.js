@@ -65,4 +65,22 @@ export const data = [
         imgURL: 'https://assets.pippa.io/shows/61a78e3272f02e001289a16b/1652733744135-7aa4a9c1b1959c6b2f251d600fac8762.jpeg',
         synopsis: "The surprising/horrifying history of political drinking in Westminster."
     },
+    { 
+        id: uuidv4(),
+        podName: "Song Exploder",
+        epName: "Khruangbin - So We Won't Forget",
+        appleURL: 'https://podcasts.apple.com/no/podcast/khruangbin-so-we-wont-forget/id788236947?i=1000485115877',
+        spotURL: 'https://open.spotify.com/episode/4ZtiBm7sOfHxmcyKiFk3Du',
+        imgURL: 'https://songexploder.net/wp-content/uploads/2016/07/songexploder-logo.png',
+        synopsis: "A low-key podcast where musicians take apart their songs and talk about how they made them. This one is a great song, plus: find out how to pronounce Kruangbin!"
+    },
+    { 
+        id: uuidv4(),
+        podName: "Reply All",
+        epName: "#158 The Case of the Missing Hit",
+        appleURL: 'https://podcasts.apple.com/us/podcast/158-the-case-of-the-missing-hit/id941907967?i=1000467513208',
+        spotURL: 'https://open.spotify.com/episode/0CaOGo6xSN51B2aLAQa1kU',
+        imgURL: 'https://i1.sndcdn.com/artworks-auhjfvOTKG0zMIHS-yDwupQ-t500x500.jpg',
+        synopsis: "A guy who is haunted by a song only he can remember recruits a podcast team to help him track it down/recreate it. "
+    },
 ]
