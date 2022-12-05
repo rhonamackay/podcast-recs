@@ -1,1 +1,3 @@
-An app for all my finest podcast episode recommendations, created with create-react-app and deployed on GitHub Pages here: https://rhonamackay.github.io/podcast-recs/
+An app for all my finest podcast episode recommendations, created with create-react-app and deployed on GitHub Pages. Get your finest podcast recommendations [here](https://rhonamackay.github.io/podcast-recs/) 🗣🎧
+
+Check out the 'master' branch to view the source code!
