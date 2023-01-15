@@ -83,4 +83,31 @@ export const data = [
         imgURL: 'https://i1.sndcdn.com/artworks-auhjfvOTKG0zMIHS-yDwupQ-t500x500.jpg',
         synopsis: "A guy who is haunted by a song only he can remember recruits a podcast team to help him track it down/recreate it. "
     },
+    { 
+        id: uuidv4(),
+        podName: "Switched On Pop",
+        epName: "Anitta & Rosalía on the borders of Latin pop",
+        appleURL: 'https://podcasts.apple.com/ec/podcast/anitta-rosal%C3%ADa-on-the-borders-of-latin-pop/id934552872?i=1000590730009',
+        spotURL: 'https://open.spotify.com/episode/31DYE0knDgWDZgKzYzWqxi',
+        imgURL: 'https://images.squarespace-cdn.com/content/v1/5dc85fbedb678a2362a7fd9f/d5d8065a-59fd-4848-a2c7-32c09739b97e/295+Anitta.jpg',
+        synopsis: 'What is Latin pop, and how do Anitta (Brazilian) and Rosalía (Spanish) fit into it?'
+},
+        { 
+        id: uuidv4(),
+        podName: "If Books Could Kill",
+        epName: "Malcolm Gladwell's Outliers",
+        appleURL: 'https://podcasts.apple.com/us/podcast/malcolm-gladwells-outliers/id1651876897?i=1000585745201',
+        spotURL: 'https://open.spotify.com/episode/5uB6H7oBBxbw5N48PllRxd',
+        imgURL: 'https://production.listennotes.com/podcasts/if-books-could-kill-sAu4PqOC-Dj-e6n5WRADKSL.1400x1400.jpg',
+        synopsis: `Have you ever despaired that you'll never be able to spend 10,000 doing a skill and therefore will never master it? Listen to this podcast and learn why that doesn't matter!`
+},
+        { 
+        id: uuidv4(),
+        podName: "Not Past It",
+        epName: "The Sweet, but Deadly Disaster",
+        appleURL: 'https://gimletmedia.com/shows/not-past-it/n8h7vj2/the-sweet-but-deadly-disaster',
+        spotURL: 'https://open.spotify.com/episode/14wTf23h0I9AxP561YSiPY',
+        imgURL: 'https://holrmagazine.com/wp-content/uploads/2023/01/Untitled-design-1-759x500.png',
+        synopsis: `The true story of a deadly tusnami wave of molasses in Boston, 1915. What caused it and who was to blame?`
+},
 ]
